@@ -366,7 +366,13 @@ footer {
 
 @media (max-width: 400px){
     .logo-header{
-        margin-left: 700px;
+        margin-left: 800px;
+    }
+}
+
+@media (max-width: 600px){
+    .logo-header{
+        margin-left: 700px ;
     }
 }
 
