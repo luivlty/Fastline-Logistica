@@ -193,7 +193,7 @@ footer {
 
 /* REDES SOCIAIS */
 .social-medias img {
-    max-width: 30px;
+    max-width: 34px;
 }
 
 /* // */
@@ -207,7 +207,7 @@ footer {
     /* BOTÃO */
     .entire-menu {
         position: fixed;
-        visibility: visible !important;
+        display: block !important;
         padding: 20px;
         width: 100%;
         margin-left: 40px;
@@ -346,14 +346,28 @@ footer {
     }
 
     /* // */
+
+    footer{
+        display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    
+    }
 }
 
 /* ESCONDENDO BOTÃO SANDUICHE */
 .entire-menu {
-    visibility: hidden;
+    display: none;
 }
 
 /* // */
 
+
+@media (max-width: 400px){
+    .logo-header{
+        margin-left: 700px;
+    }
+}
 
 /* // BOTÃO SANDUICHE */
