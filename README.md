@@ -1,7 +1,8 @@
-# Template_Website
+# Fastline-Logistica
 
-Template de website criado do 0, utilizando BOOTSTRAP, CSS puro, HTML e um pouco de JAVASCRIPT.
+Site criado do 0, logomarca criada com ajuda do CANVA;
 
-# Atenção: Logotipos e nome da marca LOGGI não tem nenhuma afiliação a esse projeto, foi utilizado somente como exemplo.
+Técnologias: CSS, HTML, JAVASCRIPT, BOOTSTRAP.
 
-Demo: https://luidev1.github.io/loggi_template/
+
+Demo: https://fastline-logistica.vercel.app/
