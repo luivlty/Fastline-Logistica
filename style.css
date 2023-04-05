@@ -377,3 +377,10 @@ footer {
 }
 
 /* // BOTÃO SANDUICHE */
+
+/* INPUT EMAIL */
+.email-input{
+    max-width: 600px !important;
+    min-width: 320px;
+}
+/* // */
