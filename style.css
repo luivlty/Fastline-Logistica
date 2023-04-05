@@ -1,0 +1,184 @@
+/* RESET CSS */
+@import url(reset.css);
+/* // RESET */
+
+
+
+/* HEADER */
+header{
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    z-index: 1;
+    background-color: black;
+}
+
+/* LOGO - HEADER */
+.logo-header{
+    margin-left: 70px;
+}
+.logo-header img{
+    width: 180px;
+    transition: width 0.7s;
+}
+
+.logo-header img:hover{
+    width: 200px;
+}
+/* // LOGO - HEADER */
+
+
+
+
+/* HOVER UL HEADER */
+.li-header{
+    transition: 0.44s;
+}
+
+
+.li-header:hover{
+    color: #00BAFF;
+}
+
+/* // HOVER*/
+
+/* // HEADER */
+
+
+/* PRIMEIRO PARALLAX */
+.parallax-1{
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(./images/img-parallax/parallax1.jpg);
+}
+
+.parallax-1:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0,0,0,0.6);
+}
+
+.parallax-1 h2{
+    position: relative;
+}
+/* // PRIMEIRO PARALLAX */
+
+
+/* ITEMS SOBRE NÓS */
+
+/* BOTÕES */
+.button-about{
+    background-color: #00BAFF;
+    width: 150px;
+    transition: 0.7s, width 0.7s
+}
+
+.button-about:hover{
+    background-color: #1167d7;
+    width: 200px;
+}
+/* // BOTÕES */
+
+/* IMAGENS ABOUT */
+.img-about{
+    width: 100px;
+}
+/* // IMAGENS ABOUT */
+
+.div-about-cfg{
+    max-width: 500px;
+    height: 335px;
+}
+
+/* SEGUNDO PARALLAX */
+.parallax-2{
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(./images/img-parallax/parallax2.jpg);
+}
+
+.parallax-2:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0,0,0,0.6);
+}
+
+.parallax-2 h2, .parallax-2 button{
+    position: relative;
+}
+/* // SEGUNDO PARALLAX */
+
+.button-parallax{
+    background-color: #04b4f4;
+    width: 120px;
+    height: 40px;
+    transition: 0.7s, width 0.7s
+}
+
+.button-parallax:hover{
+    background-color: #1167d7;
+    width: 200px;
+}
+
+
+
+/* CONFIGURAÇÕES DO MODO ESCURO */
+.dark-mode {
+    background-color: #212529;
+    color: white;
+    transition: 0.4s;
+}
+
+.img-about-invert{
+    filter: invert(100%);
+}
+.button-dark-mode{
+    width: 1.5em;
+    cursor: pointer;
+    
+}
+/* // MODO ESCURO */
+
+
+/* FOOTER */
+footer{
+    width: 100% !important;
+    min-height: 150px;
+    max-height: 200px;
+    background-color: black;
+}
+
+/* LOGO */
+.fastline-footer img{
+    width: 200px;
+}
+/* // */
+
+
+/* REDES SOCIAIS */
+.social-medias img{
+    width: 40px;
+}
+/* // */
+/* // FOOTER */
+

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./images/logo/fav.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title>Fastline Logistica</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="d-flex justify-content-between align-items-center text-white">
+
+            <!-- LOGO - HEADER -->
+            <div class="logo-header">
+                <a href="#"><img src="./images/logo/fastline.png" alt="logo"></a>
+            </div>
+
+            <!-- ICONES - HEADER -->
+            <div>
+                <ul class="me-5 mt-4 d-flex gap-5 align-items-center">
+
+                    <!-- HEADER - INICIO -->
+                    <li class="list-group-item">
+                        <a href="#" class="text-decoration-none text-white text-center">
+                            <div class="li-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.6em" height="1.7em" fill="currentColor"
+                                    class="bi bi-house-fill li-svg-header" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                                    <path fill-rule="evenodd"
+                                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                                </svg>
+                                <p>Inicio</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <!-- HEADER - RASTREIO -->
+                    <li class="list-group-item">
+
+                        <a href="#" class="text-decoration-none text-white text-center">
+                            <div class="li-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.6em" height="1.7em" fill="currentColor"
+                                    class="bi bi-bicycle li-svg-header" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z" />
+                                </svg>
+                                <p>Rastreio</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <!-- HEADER - CONTATO -->
+                    <li class="list-group-item">
+                        <a href="#" class="text-decoration-none text-white text-center">
+                            <div class="li-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1.6em" height="1.7em" fill="currentColor"
+                                    class="bi bi-person-circle li-svg-header" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                    <path fill-rule="evenodd"
+                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                </svg>
+                                <p>
+                                    Contato
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <!-- HEADER - DARK MODE -->
+                    <li class="list-group-item  me-3">
+                        <a onclick="myFunction()"
+                            class="button-dark-mode border border-0 text-decoration-none text-white">
+                            <div class="li-header text-center">
+                                <img src="./images/img-header/sol.png" alt="lua" class="button-dark-mode"
+                                    id="button-dark-mode">
+                                <p>Modo escuro</p>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- // ICONES -->
+
+        </div>
+    </header>
+    <!-- // HEADER -->
+
+
+    <!-- CONTEUDO PRINCIPAL -->
+    <main>
+
+        <!-- PRIMEIRO PARALLAX -->
+        <section class="p-0">
+            <div class="parallax-1">
+                <h2 class="text-white text-center">Trabalhe com a melhor logistica do Brasil!</h2>
+            </div>
+        </section>
+        <!-- // PRIMEIRO PARALLAX -->
+
+        <!-- SOBRE NOS-->
+        <section class="pt-5 pb-5">
+            <h1 class="text-dark text-center pt-5 pb-3">Por que nós temos
+                a logistica mais preparada do pais?</h1>
+            <div class="d-flex flex-wrap justify-content-around text-center align-items-start mb-5 ms-2 mt-5">
+
+                <!-- ITEM 1 -->
+                <div class="div-about-cfg border border-3 rounded-4">
+                    <img src="./images/about/caminhão-about.png" alt="about" class="img-about mt-2">
+                    <h3 class="h3-about mt-3">Envie pacotes para todo o Brasil</h3>
+                    <p class="p-2 ">A Loggi é uma empresa de entregas que oferece o melhor serviço de envio do jeito
+                        que você precisa. Envie quantos pacotes precisar.</p>
+                    <button class="button-about rounded-3 border-0 mb-2"><a href="#"
+                            class="text-decoration-none text-white">Saiba mais</a></button>
+                </div>
+                <!-- // ITEM 1 -->
+
+                <!-- ITEM 2 -->
+                <div class="div-about-cfg border border-3 rounded-4">
+                    <img src="./images/about/package.png" alt="about" class="img-about mt-2">
+                    <h3 class="h3-about mt-3">Práticidade</h3>
+                    <p class=" p-2">Você não precisa pegar filas ou enfrentar o trânsito, o serviço de envio é
+                        rápido, seguro, sem custo extra e sem mínimo de pacote.</p>
+                    <button class="button-about rounded-3 border-0 mb-2"><a href="#"
+                            class="text-decoration-none text-white">Saiba mais</a></button>
+                </div>
+                <!-- // ITEM 2 -->
+
+                <!-- ITEM 3 -->
+                <div class="div-about-cfg border border-3 rounded-4 ">
+                    <img src="./images/about/money.png" alt="about" class="img-about mt-2">
+                    <h3 class="h3-about mt-3">O melhor custo-benefício</h3>
+                    <p class=" p-2">A logística ideal para o seu bolso. Mesmo a opção de envio padrão tem o menor
+                        custo do mercado.</p>
+                    <button class="button-about rounded-3 border-0 mb-2"><a href="#"
+                            class="text-decoration-none text-white">Saiba mais</a></button>
+                </div>
+                <!-- // ITEM 3 -->
+
+            </div>
+        </section>
+        <!-- // SOBRE NOS -->
+
+
+        <!-- PARALLAX 2 -->
+        <div class="parallax-2 mt-5 ">
+
+            <h2 class="text-white text-center">Acompanhe o rastreio do seu pacote em tempo real!</h2>
+            <div class="d-flex justify-content-center mt-5">
+                <button class="button-parallax border border-0 rounded-3"><a href="#"
+                        class="text-decoration-none text-white">Clique aqui >></a></button>
+            </div>
+        </div>
+        <!-- // PARALLAX 2 -->
+
+        <!-- CONTATO -->
+        <section class="p-5">
+            <div>
+                <h2 class="text-center mb-5 mt-5">Ajuda</h2>
+                <div class="col-12 col-sm-4 text-secondary mt-3 mb-5 w-100">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="text-left">Insira seu email, em seguida entraremos em contato.</p>
+                        <input type="text" placeholder="E-mail" class="rounded-3 border border-2 w-50 ms-5">
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <button class="button-about rounded-3 border-0 mb-2 mt-3"><a href="#"
+                                class="text-decoration-none text-white">Enviar</a></button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- // CONTATO -->
+
+
+    </main>
+    <!-- // CONTEUDO PRINCIPAL -->
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="d-flex align-items-center justify-content-between">
+
+            <!-- LOGO FASTLINE -->
+            <div class="fastline-footer">
+                <img src="./images/logo/fastline.png" alt="logo">
+            </div>
+            <!-- // LOGO -->
+            
+            <!-- DIREITOS -->
+            <div>
+                <p class="text-white fs-5">Todos os direitos reservados.</p>
+            </div>
+            <!-- // DIREITOS -->
+
+            <!-- REDES SOCIAIS -->
+            <div>
+                <ul class="d-flex gap-4 me-4 align-items-center flex-wrap pt-3">
+
+                    <!-- INSTAGRAM -->
+                    <li class="list-group-item">
+                        <a href="#" class="social-medias">
+                            <img src="./images/footer/instagram.png" alt="Instagram">
+                        </a>
+                    </li>
+                    <!-- // INSTAGRAM -->
+
+                    <!-- FACEBOOK -->
+                    <li class="list-group-item">
+                        <a href="#" class="social-medias">
+                            <img src="./images/footer/face.webp" alt="Facebook">
+                        </a>
+                    </li>
+                    <!-- // FACEBOOK -->
+
+                    <!-- TWITTER -->
+                    <li class="list-group-item">
+                        <a href="#" class="social-medias">
+                            <img src="./images/footer/twitter.png" alt="Twitter">
+                        </a>
+                    </li>
+                    <!-- // TWITTER -->
+
+                </ul>
+            </div>
+            <!-- // REDES SOCIAIS -->
+
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+</body>
+
+<!-- BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+<!-- SCRIPT -->
+<script src="./script.js"></script>
+
+</html>
