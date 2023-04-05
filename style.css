@@ -184,7 +184,7 @@ footer {
 
 /* LOGO */
 .fastline-footer img {
-    width: 200px;
+    max-width: 200px;
     margin-left: 30px;
 }
 
@@ -193,7 +193,7 @@ footer {
 
 /* REDES SOCIAIS */
 .social-medias img {
-    width: 40px;
+    max-width: 30px;
 }
 
 /* // */
